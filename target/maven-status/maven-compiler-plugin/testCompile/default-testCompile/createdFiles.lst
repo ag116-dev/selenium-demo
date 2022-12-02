@@ -1,0 +1,11 @@
+com\ag\selenium\pageObjects\LoginBankPage.class
+com\ag\selenium\utilities\Reporting.class
+com\ag\selenium\pageObjects\HomePage.class
+com\ag\selenium\utilities\ReadConfig.class
+com\ag\selenium\pageObjects\DemoqaPage.class
+com\ag\selenium\pageObjects\LoginPage.class
+com\ag\selenium\testCases\TC_Login_002.class
+com\ag\selenium\utilities\XLUtils.class
+com\ag\selenium\testCases\BaseClass.class
+com\ag\selenium\testCases\TC_Login_003.class
+com\ag\selenium\testCases\TC_Login_001.class

@@ -1,0 +1,41 @@
+package com.ag.selenium.testCases;
+
+import java.io.IOException;
+
+import org.openqa.selenium.NoAlertPresentException;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.ag.selenium.pageObjects.LoginBankPage;
+
+public class TC_Login_002 extends BaseClass {
+	@Test
+	public void login_002() throws IOException, InterruptedException {
+		String baseURL = "https://demo.guru99.com/v4/";
+		webDriver.get(baseURL);
+		logger.info(baseURL);
+		LoginBankPage loginPage = new LoginBankPage(webDriver);
+		loginPage.inputUsername.sendKeys("username1");
+		loginPage.inputPassword.sendKeys("password1");
+		loginPage.btnLogin.click();
+
+		Thread.sleep(2000);
+		if (isAlertPresent()) {
+			webDriver.switchTo().alert().accept();
+			webDriver.switchTo().defaultContent();
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+
+	public boolean isAlertPresent() {
+		try {
+			webDriver.switchTo().alert();
+			return true;
+		} catch (NoAlertPresentException e) {
+			logger.error(e);
+			return false;
+		}
+	}
+}
