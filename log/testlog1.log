@@ -476,3 +476,205 @@
 2022-12-02 12:05:05,939 [main] INFO automation - onTestSuccess
 2022-12-02 12:05:20,871 [main] INFO automation - onTestSuccess
 2022-12-02 12:05:21,150 [main] INFO automation - onFinish
+2022-12-05 10:04:17,542 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:04:18,055 [main] INFO automation - onTestSuccess
+2022-12-05 10:04:18,269 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:04:18,608 [main] INFO automation - onTestSuccess
+2022-12-05 10:04:31,659 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 10:04:43,751 [main] INFO automation - onTestSuccess
+2022-12-05 10:05:09,458 [main] INFO automation - onTestSuccess
+2022-12-05 10:05:09,952 [main] INFO automation - onFinish
+2022-12-05 10:07:56,597 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:08:16,177 [main] INFO automation - onTestSuccess
+2022-12-05 10:08:16,390 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:08:16,773 [main] INFO automation - onTestSuccess
+2022-12-05 10:08:47,452 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 10:08:53,085 [main] INFO automation - onTestSuccess
+2022-12-05 10:13:14,217 [main] INFO automation - onTestSuccess
+2022-12-05 10:13:14,662 [main] INFO automation - onFinish
+2022-12-05 10:13:53,139 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:15:06,673 [main] INFO automation - onTestSuccess
+2022-12-05 10:15:07,311 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:15:07,773 [main] INFO automation - onTestSuccess
+2022-12-05 10:15:08,090 [main] INFO automation - onFinish
+2022-12-05 10:27:30,634 [main] INFO automation - onTestSuccess
+2022-12-05 10:27:31,026 [main] INFO automation - onFinish
+2022-12-05 10:37:59,449 [main] INFO automation - onTestSuccess
+2022-12-05 10:37:59,769 [main] INFO automation - onFinish
+2022-12-05 10:42:52,867 [main] INFO automation - onTestSuccess
+2022-12-05 10:42:53,810 [main] INFO automation - onFinish
+2022-12-05 10:43:57,522 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:43:59,066 [main] INFO automation - onTestSuccess
+2022-12-05 10:43:59,515 [main] INFO automation - https://demo.applitools.com
+2022-12-05 10:44:00,588 [main] INFO automation - onTestSuccess
+2022-12-05 10:44:40,879 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 10:44:47,262 [main] INFO automation - onTestSuccess
+2022-12-05 10:45:06,192 [main] INFO automation - onTestSuccess
+2022-12-05 10:45:06,591 [main] INFO automation - onFinish
+2022-12-05 10:48:24,283 [main] INFO automation - onTestFailure
+2022-12-05 10:48:25,045 [main] INFO automation - onFinish
+2022-12-05 10:50:09,674 [main] INFO automation - onTestFailure
+2022-12-05 10:50:10,268 [main] INFO automation - onFinish
+2022-12-05 10:54:53,067 [main] INFO automation - onTestFailure
+2022-12-05 10:54:53,778 [main] INFO automation - onFinish
+2022-12-05 10:56:25,887 [main] INFO automation - onTestFailure
+2022-12-05 10:56:26,555 [main] INFO automation - onFinish
+2022-12-05 10:58:19,178 [main] INFO automation - onTestFailure
+2022-12-05 10:58:19,728 [main] INFO automation - onFinish
+2022-12-05 11:08:27,703 [main] INFO automation - onTestFailure
+2022-12-05 11:08:28,328 [main] INFO automation - onFinish
+2022-12-05 11:15:33,005 [main] INFO automation - onTestFailure
+2022-12-05 11:15:33,268 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:15:33,644 [main] INFO automation - onFinish
+2022-12-05 11:21:34,864 [main] INFO automation - onTestSkipped
+2022-12-05 11:21:34,885 [main] INFO automation - onFinish
+2022-12-05 11:22:30,168 [main] INFO automation - onTestFailure
+2022-12-05 11:22:30,498 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:22:30,966 [main] INFO automation - onFinish
+2022-12-05 11:24:27,538 [main] INFO automation - onTestFailure
+2022-12-05 11:24:27,767 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:24:28,295 [main] INFO automation - onFinish
+2022-12-05 11:26:16,167 [main] INFO automation - onTestFailure
+2022-12-05 11:26:16,381 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:26:16,767 [main] INFO automation - onFinish
+2022-12-05 11:27:53,575 [main] INFO automation - onTestFailure
+2022-12-05 11:27:53,802 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:27:54,165 [main] INFO automation - onFinish
+2022-12-05 11:29:34,285 [main] INFO automation - onTestFailure
+2022-12-05 11:29:34,542 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:29:34,915 [main] INFO automation - onFinish
+2022-12-05 11:31:15,875 [main] INFO automation - onTestFailure
+2022-12-05 11:31:16,261 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:31:17,091 [main] INFO automation - onFinish
+2022-12-05 11:32:44,987 [main] INFO automation - onTestFailure
+2022-12-05 11:32:45,340 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:32:45,841 [main] INFO automation - onFinish
+2022-12-05 11:36:54,619 [main] INFO automation - onTestFailure
+2022-12-05 11:36:54,968 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:36:55,585 [main] INFO automation - onFinish
+2022-12-05 11:38:52,498 [main] INFO automation - onTestFailure
+2022-12-05 11:38:52,750 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:38:53,164 [main] INFO automation - onFinish
+2022-12-05 11:41:27,555 [main] INFO automation - onTestFailure
+2022-12-05 11:41:27,891 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:41:28,566 [main] INFO automation - onFinish
+2022-12-05 11:44:03,403 [main] INFO automation - onTestFailure
+2022-12-05 11:44:03,637 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:44:03,971 [main] INFO automation - onFinish
+2022-12-05 12:50:34,496 [main] INFO automation - onTestFailure
+2022-12-05 12:50:34,505 [main] INFO automation - [TestResult name=login_003 status=FAILURE method=TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2] output={null}]
+2022-12-05 12:50:34,506 [main] INFO automation - class org.testng.internal.TestResult
+2022-12-05 12:50:34,506 [main] INFO automation - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:50:34,507 [main] INFO automation - null
+2022-12-05 12:50:34,713 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:50:35,053 [main] INFO automation - onFinish
+2022-12-05 12:52:37,058 [main] INFO automation - onTestFailure
+2022-12-05 12:52:37,064 [main] INFO automation - [TestResult name=login_003 status=FAILURE method=TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2] output={null}]
+2022-12-05 12:52:37,065 [main] INFO automation - [Ljava.lang.reflect.Method;@56dfab87
+2022-12-05 12:52:37,065 [main] INFO automation - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:52:37,066 [main] INFO automation - null
+2022-12-05 12:52:37,329 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:52:37,710 [main] INFO automation - onFinish
+2022-12-05 12:53:17,950 [main] INFO automation - onTestFailure
+2022-12-05 12:53:17,958 [main] INFO automation - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:53:17,960 [main] INFO automation - [Ljava.lang.reflect.Method;@715b886f
+2022-12-05 12:53:17,961 [main] INFO automation - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:53:17,962 [main] INFO automation - null
+2022-12-05 12:53:18,209 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:53:18,666 [main] INFO automation - onFinish
+2022-12-05 12:54:31,666 [main] INFO automation - onTestFailure
+2022-12-05 12:54:31,672 [main] INFO automation - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:54:31,673 [main] INFO automation - [Ljava.lang.reflect.Method;@7fb29ca9
+2022-12-05 12:54:31,674 [main] INFO automation - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:54:31,674 [main] INFO automation - null
+2022-12-05 12:54:31,972 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:54:32,488 [main] INFO automation - onFinish
+2022-12-05 12:55:44,877 [main] INFO automation - onTestFailure
+2022-12-05 12:55:44,883 [main] INFO automation - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:55:44,884 [main] INFO automation - [Ljava.lang.reflect.Method;@56dfab87
+2022-12-05 12:55:44,884 [main] INFO automation - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:55:44,884 [main] INFO automation - TC_Login_003
+2022-12-05 12:55:45,194 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:55:45,695 [main] INFO automation - onFinish
+2022-12-05 13:02:27,471 [main] INFO automation - onTestFailure
+2022-12-05 13:02:27,766 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:02:28,344 [main] INFO automation - onFinish
+2022-12-05 13:04:22,891 [main] INFO automation - onTestStart
+2022-12-05 13:04:22,896 [main] INFO automation - onTestSkipped
+2022-12-05 13:04:22,913 [main] INFO automation - onTestStart
+2022-12-05 13:04:22,913 [main] INFO automation - onTestSkipped
+2022-12-05 13:04:27,519 [main] INFO automation - onTestStart
+2022-12-05 13:04:33,996 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:04:38,582 [main] INFO automation - onTestSuccess
+2022-12-05 13:04:44,141 [main] INFO automation - onTestStart
+2022-12-05 13:04:52,392 [main] INFO automation - onTestFailure
+2022-12-05 13:04:52,676 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:04:53,231 [main] INFO automation - onFinish
+2022-12-05 13:05:59,344 [main] INFO automation - onTestStart
+2022-12-05 13:06:01,435 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:06:03,354 [main] INFO automation - onTestSuccess
+2022-12-05 13:06:03,384 [main] INFO automation - onTestStart
+2022-12-05 13:06:03,576 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:06:03,985 [main] INFO automation - onTestSuccess
+2022-12-05 13:06:08,612 [main] INFO automation - onTestStart
+2022-12-05 13:06:12,911 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:06:17,510 [main] INFO automation - onTestSuccess
+2022-12-05 13:09:22,516 [main] INFO automation - onTestStart
+2022-12-05 13:09:22,518 [main] INFO automation - onTestSkipped
+2022-12-05 13:09:22,524 [main] INFO automation - onFinish
+2022-12-05 13:10:44,710 [main] INFO automation - onTestStart
+2022-12-05 13:10:46,210 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:10:46,960 [main] INFO automation - onTestSuccess
+2022-12-05 13:10:46,992 [main] INFO automation - onTestStart
+2022-12-05 13:10:47,247 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:10:47,788 [main] INFO automation - onTestSuccess
+2022-12-05 13:10:52,095 [main] INFO automation - onTestStart
+2022-12-05 13:10:57,504 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:11:02,174 [main] INFO automation - onTestSuccess
+2022-12-05 13:11:07,216 [main] INFO automation - onTestStart
+2022-12-05 13:11:14,902 [main] INFO automation - onTestFailure
+2022-12-05 13:11:15,145 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:11:15,735 [main] INFO automation - onFinish
+2022-12-05 13:13:51,818 [main] INFO automation - onTestStart
+2022-12-05 13:13:51,823 [main] INFO automation - Description: 
+2022-12-05 13:13:53,395 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:13:54,097 [main] INFO automation - onTestSuccess
+2022-12-05 13:13:54,116 [main] INFO automation - onTestStart
+2022-12-05 13:13:54,117 [main] INFO automation - Description: 
+2022-12-05 13:13:54,313 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:13:54,777 [main] INFO automation - onTestSuccess
+2022-12-05 13:13:59,474 [main] INFO automation - onTestStart
+2022-12-05 13:13:59,477 [main] INFO automation - Description: 
+2022-12-05 13:14:03,571 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:14:08,482 [main] INFO automation - onTestSuccess
+2022-12-05 13:14:13,439 [main] INFO automation - onTestStart
+2022-12-05 13:14:13,442 [main] INFO automation - Description: should login successfully
+2022-12-05 13:14:21,596 [main] INFO automation - onTestFailure
+2022-12-05 13:14:21,847 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:14:22,260 [main] INFO automation - onFinish
+2022-12-05 13:15:19,918 [main] INFO automation - onTestStart
+2022-12-05 13:15:20,436 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:15:21,053 [main] INFO automation - onTestSuccess
+2022-12-05 13:15:21,074 [main] INFO automation - onTestStart
+2022-12-05 13:15:21,248 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:15:21,602 [main] INFO automation - onTestSuccess
+2022-12-05 13:15:25,688 [main] INFO automation - onTestStart
+2022-12-05 13:15:29,906 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:15:34,715 [main] INFO automation - onTestSuccess
+2022-12-05 13:15:39,773 [main] INFO automation - onTestStart
+2022-12-05 13:15:47,049 [main] INFO automation - onTestFailure
+2022-12-05 13:15:47,341 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:15:47,775 [main] INFO automation - onFinish
+2022-12-05 13:18:59,853 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:19:00,733 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:19:12,626 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:19:28,901 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:57:05,957 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:57:07,445 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:57:24,046 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:57:48,448 [main] INFO automation - https://demoqa.com/login
+2022-12-05 13:57:49,439 [main] INFO automation - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:58:45,703 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:58:48,369 [main] INFO automation - https://demo.applitools.com
+2022-12-05 13:59:15,956 [main] INFO automation - https://demo.guru99.com/v4/
+2022-12-05 13:59:41,451 [main] INFO automation - https://demoqa.com/login

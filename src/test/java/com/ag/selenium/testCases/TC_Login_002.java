@@ -12,9 +12,8 @@ public class TC_Login_002 extends BaseClass {
 	@Test
 	public void login_002() throws IOException, InterruptedException {
 		String baseURL = "https://demo.guru99.com/v4/";
-		webDriver.get(baseURL);
-		logger.info(baseURL);
 		LoginBankPage loginPage = new LoginBankPage(webDriver);
+		loginPage.open(baseURL);
 		loginPage.inputUsername.sendKeys("username1");
 		loginPage.inputPassword.sendKeys("password1");
 		loginPage.btnLogin.click();

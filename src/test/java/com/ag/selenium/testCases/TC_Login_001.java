@@ -12,9 +12,8 @@ import com.ag.selenium.utilities.XLUtils;
 public class TC_Login_001 extends BaseClass {
 	@Test(dataProvider = "LoginData")
 	public void login_001(String username, String password) throws IOException {
-		webDriver.get(baseURL);
-		logger.info(baseURL);
 		LoginPage loginPage = new LoginPage(webDriver);
+		loginPage.open(baseURL);
 		loginPage.inputUsername.sendKeys(username);
 		loginPage.inputPassword.sendKeys(password);
 		loginPage.btnLogin.click();

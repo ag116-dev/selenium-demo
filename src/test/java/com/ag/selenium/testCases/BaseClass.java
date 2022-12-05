@@ -43,6 +43,7 @@ public class BaseClass {
 		}
 
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofMinutes(3));
+		webDriver.manage().window().maximize();
 		
 	}
 
@@ -52,10 +53,11 @@ public class BaseClass {
 	}
 
 	public void captureScreen(WebDriver webDriver, String name) throws IOException {
+		String filePath = System.getProperty("user.dir") + "/Screenshots/" + name + ".png";
 		TakesScreenshot ts = (TakesScreenshot) webDriver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + name + ".png");
+		File target = new File(filePath);
 		FileUtils.copyFile(source, target);
-		System.out.println("Screenshot taken");
+		logger.info("Screenshot taken: " + filePath);
 	}
 }

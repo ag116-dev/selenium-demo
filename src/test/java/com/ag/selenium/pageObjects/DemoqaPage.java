@@ -1,18 +1,15 @@
 package com.ag.selenium.pageObjects;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DemoqaPage {
-
-	WebDriver webDriver;
+public class DemoqaPage extends BasePage {
 
 	public DemoqaPage(WebDriver webDriver) {
-		this.webDriver = webDriver;
+		super(webDriver);
 		PageFactory.initElements(webDriver, this);
 	}
 
@@ -31,24 +28,6 @@ public class DemoqaPage {
 	@FindBy(id = "name")
 	@CacheLookup
 	public WebElement errorMessage;
-
-	/**
-	 * Navigator to url
-	 *
-	 */
-	public void open() {
-		String baseURL = "https://demoqa.com/login";
-		this.open(baseURL);
-	}
-	
-	/**
-	 * Navigator to url
-	 *
-	 * @param url
-	 */
-	public void open(String url) {
-		webDriver.get(url);
-	}
 
 	/**
 	 * Login as valid user

@@ -476,3 +476,205 @@
 2022-12-02 12:05:05,939 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
 2022-12-02 12:05:20,871 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
 2022-12-02 12:05:21,150 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:04:17,542 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:04:18,055 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:04:18,269 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:04:18,608 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:04:31,659 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 10:04:43,751 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:05:09,458 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:05:09,952 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:07:56,597 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:08:16,177 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:08:16,390 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:08:16,773 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:08:47,452 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 10:08:53,085 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:13:14,217 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:13:14,662 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:13:53,139 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:15:06,673 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:15:07,311 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:15:07,773 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:15:08,090 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:27:30,634 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:27:31,026 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:37:59,449 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:37:59,769 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:42:52,867 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:42:53,810 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:43:57,522 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:43:59,066 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:43:59,515 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 10:44:00,588 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:44:40,879 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 10:44:47,262 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:45:06,192 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 10:45:06,591 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:48:24,283 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 10:48:25,045 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:50:09,674 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 10:50:10,268 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:54:53,067 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 10:54:53,778 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:56:25,887 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 10:56:26,555 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 10:58:19,178 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 10:58:19,728 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:08:27,703 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:08:28,328 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:15:33,005 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:15:33,268 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:15:33,644 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:21:34,864 - com.ag.selenium.utilities.Reporting - INFO - onTestSkipped
+2022-12-05 11:21:34,885 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:22:30,168 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:22:30,498 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:22:30,966 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:24:27,538 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:24:27,767 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:24:28,295 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:26:16,167 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:26:16,381 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:26:16,767 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:27:53,575 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:27:53,802 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:27:54,165 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:29:34,285 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:29:34,542 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:29:34,915 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:31:15,875 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:31:16,261 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:31:17,091 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:32:44,987 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:32:45,340 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:32:45,841 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:36:54,619 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:36:54,968 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:36:55,585 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:38:52,498 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:38:52,750 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:38:53,164 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:41:27,555 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:41:27,891 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:41:28,566 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 11:44:03,403 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 11:44:03,637 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 11:44:03,971 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 12:50:34,496 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 12:50:34,505 - com.ag.selenium.utilities.Reporting - INFO - [TestResult name=login_003 status=FAILURE method=TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2] output={null}]
+2022-12-05 12:50:34,506 - com.ag.selenium.utilities.Reporting - INFO - class org.testng.internal.TestResult
+2022-12-05 12:50:34,506 - com.ag.selenium.utilities.Reporting - INFO - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:50:34,507 - com.ag.selenium.utilities.Reporting - INFO - 
+2022-12-05 12:50:34,713 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:50:35,053 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 12:52:37,058 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 12:52:37,064 - com.ag.selenium.utilities.Reporting - INFO - [TestResult name=login_003 status=FAILURE method=TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2] output={null}]
+2022-12-05 12:52:37,065 - com.ag.selenium.utilities.Reporting - INFO - [Ljava.lang.reflect.Method;@56dfab87
+2022-12-05 12:52:37,065 - com.ag.selenium.utilities.Reporting - INFO - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:52:37,066 - com.ag.selenium.utilities.Reporting - INFO - 
+2022-12-05 12:52:37,329 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:52:37,710 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 12:53:17,950 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 12:53:17,958 - com.ag.selenium.utilities.Reporting - INFO - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:53:17,960 - com.ag.selenium.utilities.Reporting - INFO - [Ljava.lang.reflect.Method;@715b886f
+2022-12-05 12:53:17,961 - com.ag.selenium.utilities.Reporting - INFO - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:53:17,962 - com.ag.selenium.utilities.Reporting - INFO - 
+2022-12-05 12:53:18,209 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:53:18,666 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 12:54:31,666 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 12:54:31,672 - com.ag.selenium.utilities.Reporting - INFO - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:54:31,673 - com.ag.selenium.utilities.Reporting - INFO - [Ljava.lang.reflect.Method;@7fb29ca9
+2022-12-05 12:54:31,674 - com.ag.selenium.utilities.Reporting - INFO - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:54:31,674 - com.ag.selenium.utilities.Reporting - INFO - 
+2022-12-05 12:54:31,972 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:54:32,488 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 12:55:44,877 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 12:55:44,883 - com.ag.selenium.utilities.Reporting - INFO - TC_Login_003.login_003()[pri:0, instance:com.ag.selenium.testCases.TC_Login_003@4686afc2]
+2022-12-05 12:55:44,884 - com.ag.selenium.utilities.Reporting - INFO - [Ljava.lang.reflect.Method;@56dfab87
+2022-12-05 12:55:44,884 - com.ag.selenium.utilities.Reporting - INFO - [TestClass name=class com.ag.selenium.testCases.TC_Login_003]
+2022-12-05 12:55:44,884 - com.ag.selenium.utilities.Reporting - INFO - TC_Login_003
+2022-12-05 12:55:45,194 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 12:55:45,695 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:02:27,471 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 13:02:27,766 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:02:28,344 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:04:22,891 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:04:22,896 - com.ag.selenium.utilities.Reporting - INFO - onTestSkipped
+2022-12-05 13:04:22,913 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:04:22,913 - com.ag.selenium.utilities.Reporting - INFO - onTestSkipped
+2022-12-05 13:04:27,519 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:04:33,996 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:04:38,582 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:04:44,141 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:04:52,392 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 13:04:52,676 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:04:53,231 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:05:59,344 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:06:01,435 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:06:03,354 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:06:03,384 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:06:03,576 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:06:03,985 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:06:08,612 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:06:12,911 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:06:17,510 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:09:22,516 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:09:22,518 - com.ag.selenium.utilities.Reporting - INFO - onTestSkipped
+2022-12-05 13:09:22,524 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:10:44,710 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:10:46,210 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:10:46,960 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:10:46,992 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:10:47,247 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:10:47,788 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:10:52,095 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:10:57,504 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:11:02,174 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:11:07,216 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:11:14,902 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 13:11:15,145 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:11:15,735 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:13:51,818 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:13:51,823 - com.ag.selenium.utilities.Reporting - INFO - Description: 
+2022-12-05 13:13:53,395 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:13:54,097 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:13:54,116 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:13:54,117 - com.ag.selenium.utilities.Reporting - INFO - Description: 
+2022-12-05 13:13:54,313 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:13:54,777 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:13:59,474 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:13:59,477 - com.ag.selenium.utilities.Reporting - INFO - Description: 
+2022-12-05 13:14:03,571 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:14:08,482 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:14:13,439 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:14:13,442 - com.ag.selenium.utilities.Reporting - INFO - Description: should login successfully
+2022-12-05 13:14:21,596 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 13:14:21,847 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:14:22,260 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:15:19,918 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:15:20,436 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:15:21,053 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:15:21,074 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:15:21,248 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:15:21,602 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:15:25,688 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:15:29,906 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:15:34,715 - com.ag.selenium.utilities.Reporting - INFO - onTestSuccess
+2022-12-05 13:15:39,773 - com.ag.selenium.utilities.Reporting - INFO - onTestStart
+2022-12-05 13:15:47,049 - com.ag.selenium.utilities.Reporting - INFO - onTestFailure
+2022-12-05 13:15:47,341 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:15:47,775 - com.ag.selenium.utilities.Reporting - INFO - onFinish
+2022-12-05 13:18:59,853 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:19:00,733 - com.ag.selenium.testCases.TC_Login_001 - INFO - https://demo.applitools.com
+2022-12-05 13:19:12,626 - com.ag.selenium.testCases.TC_Login_002 - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:19:28,901 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:57:05,957 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.applitools.com
+2022-12-05 13:57:07,445 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.applitools.com
+2022-12-05 13:57:24,046 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:57:48,448 - com.ag.selenium.pageObjects.BasePage - INFO - https://demoqa.com/login
+2022-12-05 13:57:49,439 - com.ag.selenium.testCases.BaseClass - INFO - Screenshot taken: C:\Users\anhtg\eclipse-workspace\demo/Screenshots/login_003.png
+2022-12-05 13:58:45,703 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.applitools.com
+2022-12-05 13:58:48,369 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.applitools.com
+2022-12-05 13:59:15,956 - com.ag.selenium.pageObjects.BasePage - INFO - https://demo.guru99.com/v4/
+2022-12-05 13:59:41,451 - com.ag.selenium.pageObjects.BasePage - INFO - https://demoqa.com/login

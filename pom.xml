@@ -48,9 +48,10 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.6.1</version>
+			<version>7.5</version>
 			<scope>test</scope>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v107 -->
 		<dependency>

@@ -1,9 +1,6 @@
 package com.ag.selenium.utilities;
 
-import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -12,17 +9,20 @@ import org.testng.ITestResult;
 import com.ag.selenium.testCases.BaseClass;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-@SuppressWarnings("unused")
 public class Reporting extends BaseClass implements ITestListener {
 
 	public ExtentSparkReporter extentSparkReporter;
 	public ExtentReports reports;
 	public ExtentTest test;
+
+	public String testName;
+	public String testDetail;
 
 	public void onStart(ITestContext context) {
 		String repName = "Test-Report.html";
@@ -34,7 +34,7 @@ public class Reporting extends BaseClass implements ITestListener {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-//			logger.error(e);
+			logger.error(e);
 		}
 		reports = new ExtentReports();
 		reports.attachReporter(extentSparkReporter);
@@ -43,39 +43,48 @@ public class Reporting extends BaseClass implements ITestListener {
 		reports.setSystemInfo("Author", "AG");
 	}
 
+	@Override
+	public void onTestStart(ITestResult result) {
+		logger.debug("onTestStart");
+		testName = result.getInstance().getClass().getSimpleName() + "-" + result.getName();
+		testDetail = result.getMethod().getDescription();
+		if (testDetail.isBlank()) {
+			testDetail = result.getName();
+		}
+	}
+
 	public void onTestSuccess(ITestResult result) {
-		logger.info("onTestSuccess");
-		test = reports.createTest(result.getName());
-		test.log(Status.PASS, MarkupHelper.createLabel(result.getName(), ExtentColor.GREEN));
+		logger.debug("onTestSuccess");
+
+		test = reports.createTest(testName);
+		test.log(Status.PASS, MarkupHelper.createLabel(testDetail, ExtentColor.GREEN));
 	}
 
 	public void onTestFailure(ITestResult result) {
-		logger.info("onTestFailure");
-		test = reports.createTest(result.getName());
-		test.log(Status.FAIL, MarkupHelper.createLabel(result.getName(), ExtentColor.RED));
+		logger.debug("onTestFailure");
+//		test.log(Status.FAIL, MarkupHelper.createLabel(result.getName(), ExtentColor.RED));
 
 		try {
 			captureScreen(webDriver, result.getName());
 			String screenshotPath = (System.getProperty("user.dir") + "\\Screenshots\\" + result.getName() + ".png");
-			File f = new File(screenshotPath);
-			if (f.exists()) {
-				test.fail("Screen shot is below: " + test.addScreenCaptureFromPath(screenshotPath));
-			}
+			test = reports.createTest(testName);
+			test.log(Status.FAIL, testDetail, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			logger.error(e);
 		}
 
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		logger.info("onTestSkipped");
-		test = reports.createTest(result.getName());
-		test.log(Status.SKIP, MarkupHelper.createLabel(result.getName(), ExtentColor.ORANGE));
+		logger.debug("onTestSkipped");
+		test = reports.createTest(testName);
+		test.log(Status.SKIP, MarkupHelper.createLabel(testDetail, ExtentColor.ORANGE));
 	}
 
 	public void onFinish(ITestContext context) {
-		logger.info("onFinish");
+		logger.debug("onFinish");
 		reports.flush();
 	}
 
