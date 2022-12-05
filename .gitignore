@@ -2,3 +2,6 @@ log
 Screenshots
 target
 test-output
+
+# eclipse specific git ignore
+.settings/
