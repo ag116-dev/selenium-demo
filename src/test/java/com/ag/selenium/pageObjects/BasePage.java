@@ -30,6 +30,7 @@ public class BasePage {
 	 * Navigator to url
 	 *
 	 * @param url
+	 * input url
 	 */
 	public void open(String url) {
 		webDriver.get(url);
