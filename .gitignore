@@ -1,7 +1,7 @@
-log
+log/*
 Screenshots
 target
 test-output
 
-# eclipse specific git ignore
-.settings/
+# eclipse/idea specific git ignore
+.idea
