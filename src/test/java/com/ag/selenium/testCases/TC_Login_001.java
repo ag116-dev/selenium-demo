@@ -11,20 +11,13 @@ import com.ag.selenium.utilities.XLUtils;
 
 public class TC_Login_001 extends BaseClass {
 	@Test(dataProvider = "LoginData")
-	public void login_001(String username, String password) throws IOException {
+	public void login_001(String username, String password) {
 		LoginPage loginPage = new LoginPage(webDriver);
 		loginPage.open(baseURL);
 		loginPage.inputUsername.sendKeys(username);
 		loginPage.inputPassword.sendKeys(password);
 		loginPage.btnLogin.click();
-		if(webDriver.getTitle().equals("ACME demo app"))
-		{
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			Assert.assertTrue(false);
-		}
+		Assert.assertEquals(webDriver.getTitle(), "ACME demo app");
 	}
 	
 	@DataProvider(name = "LoginData")
@@ -32,7 +25,7 @@ public class TC_Login_001 extends BaseClass {
 		String path = System.getProperty("user.dir") + "/src/test/java/com/ag/selenium/testData/LoginData.xlsx";
 		int rowNum = XLUtils.getRowCount(path, "Sheet1");
 		int colNum = XLUtils.getCellCount(path, "Sheet1", rowNum);
-		String loginData[][] = new String[rowNum][colNum];
+		String[][] loginData = new String[rowNum][colNum];
 		for (int i = 1; i <= rowNum; i++) {
 			for (int j = 0; j < colNum; j++) {
 				loginData[i - 1][j] = XLUtils.getCellData(path, "Sheet1", i, j);

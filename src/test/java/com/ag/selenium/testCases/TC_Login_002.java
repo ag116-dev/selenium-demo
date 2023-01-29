@@ -1,16 +1,13 @@
 package com.ag.selenium.testCases;
 
-import java.io.IOException;
-
+import com.ag.selenium.pageObjects.LoginBankPage;
 import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.ag.selenium.pageObjects.LoginBankPage;
-
 public class TC_Login_002 extends BaseClass {
 	@Test
-	public void login_002() throws IOException, InterruptedException {
+	public void login_002() throws InterruptedException {
 		String baseURL = "https://demo.guru99.com/v4/";
 		LoginBankPage loginPage = new LoginBankPage(webDriver);
 		loginPage.open(baseURL);
@@ -24,7 +21,7 @@ public class TC_Login_002 extends BaseClass {
 			webDriver.switchTo().defaultContent();
 			Assert.assertTrue(true);
 		} else {
-			Assert.assertTrue(false);
+			Assert.fail();
 		}
 	}
 

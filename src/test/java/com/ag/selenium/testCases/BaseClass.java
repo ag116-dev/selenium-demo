@@ -11,53 +11,62 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import com.ag.selenium.utilities.ReadConfig;
 
 public class BaseClass {
 
-	ReadConfig readConfig = new ReadConfig();
+    ReadConfig readConfig = new ReadConfig();
 
-	public String baseURL = readConfig.getApplicationUrl();
-	public String username = "mngr164225";
-	public String password = "jahetAp";
-	public static WebDriver webDriver;
-	public static Logger logger;
+    public String baseURL = readConfig.getApplicationUrl();
+    public String username = "mngr164225";
+    public String password = "jahetAp";
+    public static WebDriver webDriver;
+    public static Logger logger;
+    boolean isStopTest = false;
+    @Parameters("browser")
+    @BeforeClass
+    public void setup(@Optional("chrome") String br) {
+        logger = Logger.getLogger("automation");
+        PropertyConfigurator.configure("log4j.properties");
 
-	@Parameters("browser")
-	@BeforeClass
-	public void setup(@Optional("chrome") String br) {
-		logger = Logger.getLogger("automation");
-		PropertyConfigurator.configure("log4j.properties");
+        if (br.equals("chrome")) {
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + readConfig.getChromePath());
+            webDriver = new ChromeDriver();
+        } else {
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + readConfig.getChromePath());
+            webDriver = new ChromeDriver();
+        }
 
-		if (br.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + readConfig.getChromePath());
-			webDriver = new ChromeDriver();
-		} else {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + readConfig.getChromePath());
-			webDriver = new ChromeDriver();
-		}
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofMinutes(3));
+        webDriver.manage().window().maximize();
 
-		webDriver.manage().timeouts().implicitlyWait(Duration.ofMinutes(3));
-		webDriver.manage().window().maximize();
-		
-	}
+    }
 
-	@AfterClass
-	public void tearDown() {
-		webDriver.quit();
-	}
+    @BeforeTest
+    public void beforeTest() {
+        Assert.assertFalse(isStopTest);
+    }
 
-	public void captureScreen(WebDriver webDriver, String name) throws IOException {
-		String filePath = System.getProperty("user.dir") + "/Screenshots/" + name + ".png";
-		TakesScreenshot ts = (TakesScreenshot) webDriver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(filePath);
-		FileUtils.copyFile(source, target);
-		logger.info("Screenshot taken: " + filePath);
-	}
+    @AfterTest
+    public void afterTest(ITestResult result) {
+        if(result.getStatus() != ITestResult.SUCCESS) isStopTest = true;
+    }
+
+    @AfterClass
+    public void tearDown() {
+        webDriver.quit();
+    }
+
+    public void captureScreen(WebDriver webDriver, String name) throws IOException {
+        String filePath = System.getProperty("user.dir") + "/Screenshots/" + name + ".png";
+        TakesScreenshot ts = (TakesScreenshot) webDriver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File target = new File(filePath);
+        FileUtils.copyFile(source, target);
+        logger.info("Screenshot taken: " + filePath);
+    }
 }

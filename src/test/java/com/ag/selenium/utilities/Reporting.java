@@ -48,7 +48,7 @@ public class Reporting extends BaseClass implements ITestListener {
 		logger.debug("onTestStart");
 		testName = result.getInstance().getClass().getSimpleName() + "-" + result.getName();
 		testDetail = result.getMethod().getDescription();
-		if (testDetail.isBlank()) {
+		if (testDetail.isEmpty()) {
 			testDetail = result.getName();
 		}
 	}
